@@ -1,6 +1,4 @@
-# tv-show-search-app
-
-# My Awesome Project
+# TV SHOW SEARCH
 
 Simple TV Show search app that displays all the images of TV shows that matches keywords entered in the search input.
 
@@ -30,7 +28,7 @@ Something new I learnt too is that axios can make a query string object so that 
 
 ## Lessons Learned:
 
--This is my first time using a tool called [Postman](https://www.postman.com/) which really help simplified using API than testing out in the console.log.
+-This is my first time using a tool called [Postman](https://www.postman.com/) which really help simply using API than testing out in the console.log.
 
 -I learnt that using preventDefault() method when testing forms is good to avoid needing to refresh or adding unncessary data to our database when testing. This method will as self-described, will stop the default action of submitting the form data. The data will not go anywhere when you click on submit.
 
