@@ -2,8 +2,10 @@ const form = document.querySelector('#searchForm');
 form.addEventListener('submit', async function (event) {
   event.preventDefault();
   const searchTerm = form.elements.query.value;
+  const config = { params: { q: searchTerm } };
   const response = await axios.get(
-    `https://api.tvmaze.com/search/shows?q=${searchTerm}`
+    `https://api.tvmaze.com/search/shows`,
+    config
   );
   displayImages(response.data);
   form.elements.query.value = '';
